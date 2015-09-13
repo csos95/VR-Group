@@ -12,7 +12,7 @@ Basic git commands
 
 3. view current status of local working directory `git status`
 
-4. stage edited or new files to git `git add [filename]` to add all use `git add .`
+4. stage new or edited files `git add [filename]` to add all use `git add .`
 
     EX: `git add newfile.txt`
 
