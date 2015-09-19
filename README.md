@@ -28,4 +28,3 @@ Basic git commands
 
     EX: `git pull origin master`
 
-#THIS IS AN EDIT
