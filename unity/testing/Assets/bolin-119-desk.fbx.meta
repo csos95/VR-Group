@@ -1,17 +1,21 @@
 fileFormatVersion: 2
-guid: 94720de03c5b9234c9a77bfbb96a090e
-timeCreated: 1458586440
+guid: ff68394a248e33647b0718e543219c10
+timeCreated: 1458602354
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Camera
+    100004: Desk
+    100006: Lamp
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Plane
-    7400000: Default Take
-    9500000: //RootNode
+    400002: Camera
+    400004: Desk
+    400006: Lamp
+    2300000: Desk
+    3300000: Desk
+    4300000: Desk
   materials:
     importMaterials: 1
     materialName: 0
@@ -70,7 +74,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
