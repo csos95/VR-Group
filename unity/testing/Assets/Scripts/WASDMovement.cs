@@ -3,39 +3,32 @@ using System.Collections;
 
 public class WASDMovement : MonoBehaviour {
 
-    public float speed = 1.5f;
-    public float spacing = 1.0f;
-    private Vector3 pos;
+    public float speed;
+    private Vector3 pos, dir;
+    private CharacterController control;
 
-	// Use this for initialization
-	void Start () {
-        pos = transform.position;
-	}
-	
-	// Update is called once per frame
 	void Update ()
     {
-        pos = transform.position;
+        Debug.Log(transform.position);
+        pos = new Vector3(0, 0, 0);
+        control = GetComponent<CharacterController>();
+        dir = Camera.main.transform.forward;
         if (Input.GetKey(KeyCode.W))
         {
-            Debug.Log("forward");
-            pos.z += spacing;
+            pos.x = dir.x * speed * Time.deltaTime;
+            pos.z = dir.z * speed * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.S))
         {
-            Debug.Log("back");
-            pos.z -= spacing;
+            pos.x = -(dir.x * speed * Time.deltaTime);
+            pos.z = -(dir.z * speed * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.A))
+        if(pos.y != 12)
         {
-            Debug.Log("left");
-            pos.x -= spacing;
+            Vector3 temp = transform.position;
+            temp.y = 12;
+            transform.position = temp;
         }
-        if (Input.GetKey(KeyCode.D))
-        {
-            Debug.Log("righ");
-            pos.x += spacing;
-        }
-        transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
+        control.Move(pos);
     }
 }

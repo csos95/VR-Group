@@ -13,7 +13,6 @@ public class InputHandler : MonoBehaviour
 
             if (Physics.Raycast(ray.origin, ray.direction, out rayCastHit, Mathf.Infinity))
             {
-                Debug.Log("Mouse Clicked!");
                 Door door = rayCastHit.transform.GetComponent<Door>();
                 door.PlayAnimation();
             }
