@@ -9,21 +9,27 @@ public class WASDMovement : MonoBehaviour {
 
 	void Update ()
     {
-        Debug.Log(transform.position);
         pos = new Vector3(0, 0, 0);
         control = GetComponent<CharacterController>();
-        dir = Camera.main.transform.forward;
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            pos.x = dir.x * speed * Time.deltaTime;
-            pos.z = dir.z * speed * Time.deltaTime;
+            speed = speed * 1.5f;
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            pos.x = -(dir.x * speed * Time.deltaTime);
-            pos.z = -(dir.z * speed * Time.deltaTime);
+            speed = speed / 1.5f;
         }
-        if(pos.y != 12)
+        if(Input.GetAxis("Horizontal") != 0f)
+        {
+            pos += Input.GetAxis("Horizontal") * transform.right * speed * Time.deltaTime;
+            pos.y = 0;
+        }
+        if(Input.GetAxis("Vertical") != 0f)
+        {
+            pos += Input.GetAxis("Vertical") * transform.forward * speed * Time.deltaTime;
+            pos.y = 0;
+        }
+        if (transform.position.y != 12)
         {
             Vector3 temp = transform.position;
             temp.y = 12;
