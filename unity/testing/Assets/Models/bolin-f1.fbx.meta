@@ -1,26 +1,26 @@
 fileFormatVersion: 2
-guid: e389e5b21a22d1b45a25d06b768a7799
-timeCreated: 1459656061
+guid: 3334a81a84683d94e88f758feb6ec000
+timeCreated: 1459711286
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Camera
-    100004: door
-    100006: Plane.001
+    100002: Bolinf1
+    100004: Camera
+    100006: Door
     100008: Sun
     400000: //RootNode
-    400002: Camera
-    400004: door
-    400006: Plane.001
+    400002: Bolinf1
+    400004: Camera
+    400006: Door
     400008: Sun
-    2300000: door
-    2300002: Plane.001
-    3300000: door
-    3300002: Plane.001
-    4300000: door
-    4300002: Plane.001
+    2300000: Bolinf1
+    2300002: Door
+    3300000: Bolinf1
+    3300002: Door
+    4300000: Door
+    4300002: Bolinf1
   materials:
     importMaterials: 1
     materialName: 0

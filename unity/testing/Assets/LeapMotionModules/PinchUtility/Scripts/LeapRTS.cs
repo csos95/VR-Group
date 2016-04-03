@@ -87,11 +87,13 @@ namespace Leap.Unity.PinchUtility
             if (_pinchDetectorA.DidStartPinch || _pinchDetectorB.DidStartPinch)
             {
                 rigid.useGravity = false;
-                Debug.Log("Gravity OFF");
             } else if (_pinchDetectorA.DidEndPinch || _pinchDetectorB.DidEndPinch)
             {
                 rigid.useGravity = true;
-                Debug.Log("Gravity ON");
+            }
+            
+            if (_pinchDetectorA.IsPinching){
+                rigid.velocity = new Vector3(0,0,0);
             }
 
             if (_pinchDetectorA.IsPinching && _pinchDetectorB.IsPinching)
