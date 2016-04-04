@@ -1,41 +1,51 @@
 fileFormatVersion: 2
-guid: b7f1c1b35409f3345b34d6d6e038cee9
-timeCreated: 1458670023
+guid: 044ad601df4150e47a23508d7f8294bb
+timeCreated: 1459722002
 licenseType: Free
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Camera
-    100004: Cube
-    100006: Cube.001
-    100008: Cylinder
-    100010: Cylinder.001
-    100012: Cylinder.002
-    100014: Lamp
-    400000: //RootNode
-    400002: Camera
-    400004: Cube
-    400006: Cube.001
-    400008: Cylinder
-    400010: Cylinder.001
-    400012: Cylinder.002
-    400014: Lamp
-    2300000: Cube
-    2300002: Cube.001
-    2300004: Cylinder
-    2300006: Cylinder.001
-    2300008: Cylinder.002
-    3300000: Cube
-    3300002: Cube.001
-    3300004: Cylinder
-    3300006: Cylinder.001
-    3300008: Cylinder.002
-    4300000: Cylinder.002
-    4300002: Cylinder.001
-    4300004: Cylinder
-    4300006: Cube.001
-    4300008: Cube
+    100000: Camera
+    100002: Door
+    100004: Doorway
+    100006: handle
+    100008: handle.001
+    100010: Hinge1
+    100012: Hinge2
+    100014: Hinge3
+    100016: Lamp
+    100018: //RootNode
+    400000: Camera
+    400002: Door
+    400004: Doorway
+    400006: handle
+    400008: handle.001
+    400010: Hinge1
+    400012: Hinge2
+    400014: Hinge3
+    400016: Lamp
+    400018: //RootNode
+    2300000: Door
+    2300002: Doorway
+    2300004: handle
+    2300006: handle.001
+    2300008: Hinge1
+    2300010: Hinge2
+    2300012: Hinge3
+    3300000: Door
+    3300002: Doorway
+    3300004: handle
+    3300006: handle.001
+    3300008: Hinge1
+    3300010: Hinge2
+    3300012: Hinge3
+    4300000: handle.001
+    4300002: handle
+    4300004: Hinge3
+    4300006: Hinge2
+    4300008: Hinge1
+    4300010: Door
+    4300012: Doorway
   materials:
     importMaterials: 1
     materialName: 0
@@ -43,6 +53,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -50,9 +61,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -76,20 +87,19 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
