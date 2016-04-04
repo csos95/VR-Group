@@ -45,20 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LeapMotion\Editor\LeapHandControllerEditor.cs" />
-     <Compile Include="Assets\LeapMotion\Editor\LeapImageRetrieverEditor.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\VR\Editor\EyeTypeEditor.cs" />
-     <Compile Include="Assets\LeapMotion\Scripts\VR\Editor\LeapTemporalWarpingEditor.cs" />
+     <Compile Include="Assets\LeapMotionStuff\LeapMotion\Editor\LeapHandControllerEditor.cs" />
+     <Compile Include="Assets\LeapMotionStuff\LeapMotion\Editor\LeapImageRetrieverEditor.cs" />
+     <Compile Include="Assets\LeapMotionStuff\LeapMotion\Scripts\VR\Editor\EyeTypeEditor.cs" />
+     <Compile Include="Assets\LeapMotionStuff\LeapMotion\Scripts\VR\Editor\LeapTemporalWarpingEditor.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
-     <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
-     <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
-     <None Include="Assets\LeapMotionModules\PinchUtility\Examples\Shaders\LeapPinchLine.shader" />
-     <None Include="Assets\LeapMotion\readme.txt" />
-     <None Include="Assets\LeapMotion\Dependencies.txt" />
-     <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
-     <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
-     <None Include="Assets\LeapMotion\Resources\PassthroughBackground.shader" />
-     <None Include="Assets\LeapMotion\Version.txt" />
+     <None Include="Assets\LeapMotionStuff\LeapMotion\Resources\LeapCG.cginc" />
+     <None Include="Assets\LeapMotionStuff\LeapMotion\README_BEFORE_UPDATING.txt" />
+     <None Include="Assets\LeapMotionStuff\LeapMotionModules\PinchUtility\Examples\Shaders\LeapPinchLine.shader" />
+     <None Include="Assets\LeapMotionStuff\LeapMotion\readme.txt" />
+     <None Include="Assets\LeapMotionStuff\LeapMotion\Dependencies.txt" />
+     <None Include="Assets\LeapMotionStuff\LeapMotion\Resources\ThresholdOverlay.shader" />
+     <None Include="Assets\LeapMotionStuff\LeapMotion\Resources\PassthroughForeground.shader" />
+     <None Include="Assets\LeapMotionStuff\LeapMotion\Resources\PassthroughBackground.shader" />
+     <None Include="Assets\LeapMotionStuff\LeapMotion\Version.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
