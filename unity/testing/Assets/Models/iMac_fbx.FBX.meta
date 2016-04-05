@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 64e470fbcb4554347a094416e7af2e3b
+timeCreated: 1459807373
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: iMac_aluminium parts
+    100002: iMac_cable_down
+    100004: iMac_cable_front
+    100006: iMac_camera
+    100008: iMac_camera frame
+    100010: iMac_display
+    100012: iMac_display frame
+    100014: iMac_display glass
+    100016: //RootNode
+    100018: iMac_logos
+    100020: iMac_shell
+    100022: iMac_white plastic
+    400000: iMac_aluminium parts
+    400002: iMac_cable_down
+    400004: iMac_cable_front
+    400006: iMac_camera
+    400008: iMac_camera frame
+    400010: iMac_display
+    400012: iMac_display frame
+    400014: iMac_display glass
+    400016: //RootNode
+    400018: iMac_logos
+    400020: iMac_shell
+    400022: iMac_white plastic
+    2300000: iMac_aluminium parts
+    2300002: iMac_cable_down
+    2300004: iMac_cable_front
+    2300006: iMac_camera
+    2300008: iMac_camera frame
+    2300010: iMac_display
+    2300012: iMac_display frame
+    2300014: iMac_display glass
+    2300016: iMac_logos
+    2300018: iMac_shell
+    2300020: iMac_white plastic
+    3300000: iMac_aluminium parts
+    3300002: iMac_cable_down
+    3300004: iMac_cable_front
+    3300006: iMac_camera
+    3300008: iMac_camera frame
+    3300010: iMac_display
+    3300012: iMac_display frame
+    3300014: iMac_display glass
+    3300016: iMac_logos
+    3300018: iMac_shell
+    3300020: iMac_white plastic
+    4300000: iMac_display frame
+    4300002: iMac_display glass
+    4300004: iMac_camera frame
+    4300006: iMac_shell
+    4300008: iMac_camera
+    4300010: iMac_aluminium parts
+    4300012: iMac_white plastic
+    4300014: iMac_display
+    4300016: iMac_logos
+    4300018: iMac_cable_front
+    4300020: iMac_cable_down
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
