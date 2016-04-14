@@ -108,8 +108,6 @@ public class Player : MonoBehaviour {
 
         if (horizontal != 0f || vertical != 0f)
         {
-            Debug.Log(horizontal);
-            Debug.Log(vertical);
             Move();
         }
     }
