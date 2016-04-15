@@ -1,15 +1,62 @@
 fileFormatVersion: 2
-guid: 39ba07e5b5196824baa743835a54ba95
-timeCreated: 1460077170
+guid: 17730cf4ced01944191a8c38df74f1aa
+timeCreated: 1460689504
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Plane.001
+    100000: Back
+    100002: //RootNode
+    100004: Frame
+    100006: LeftArmRest
+    100008: RightArmRest
+    100010: Seat
+    100012: Wheel1
+    100014: Wheel2
+    100016: Wheel3
+    100018: Wheel4
+    100020: Wheel5
+    400000: Back
+    400002: //RootNode
+    400004: Frame
+    400006: LeftArmRest
+    400008: RightArmRest
+    400010: Seat
+    400012: Wheel1
+    400014: Wheel2
+    400016: Wheel3
+    400018: Wheel4
+    400020: Wheel5
+    2300000: Back
+    2300002: Frame
+    2300004: LeftArmRest
+    2300006: RightArmRest
+    2300008: Seat
+    2300010: Wheel1
+    2300012: Wheel2
+    2300014: Wheel3
+    2300016: Wheel4
+    2300018: Wheel5
+    3300000: Back
+    3300002: Frame
+    3300004: LeftArmRest
+    3300006: RightArmRest
+    3300008: Seat
+    3300010: Wheel1
+    3300012: Wheel2
+    3300014: Wheel3
+    3300016: Wheel4
+    3300018: Wheel5
+    4300000: RightArmRest
+    4300002: LeftArmRest
+    4300004: Wheel5
+    4300006: Wheel4
+    4300008: Wheel3
+    4300010: Wheel2
+    4300012: Wheel1
+    4300014: Back
+    4300016: Frame
+    4300018: Seat
   materials:
     importMaterials: 1
     materialName: 0
