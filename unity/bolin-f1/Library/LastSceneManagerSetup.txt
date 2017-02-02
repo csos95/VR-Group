@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/bolin-f1.unity
+  isLoaded: 1
+  isActive: 1
