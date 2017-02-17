@@ -118,7 +118,7 @@ public class Player : MonoBehaviour {
         pos += horizontal * transform.right * speed * Time.deltaTime;
         pos += vertical * transform.forward * speed * Time.deltaTime;
         pos.y = 0;
-        if (transform.position.y != 0.9f)
+        if (transform.position.y != 0.9f && !control.isGrounded)
         {
             Vector3 temp = transform.position;
             temp.y = 0.9f;
